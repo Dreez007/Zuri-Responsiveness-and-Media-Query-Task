@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+p{
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif; 
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.left-div{
+    color: white;
+    width: 35%;
+    padding: 2em;
+}
+.left-div h1{
+    line-height: 120%;
+}
+.left-div p{
+    margin-top: 20px;
+}
+.right-div{
+    width: 35%;
+    padding: 2em;   
+}
+.form-top{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 0px 7px rgba(0, 0, 0, .2);
+}
+.bold{
+    font-weight: bold;
+}
+form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1.2em;
+    box-shadow: 0px 7px rgba(0, 0, 0, .2);
+}
+input{
+    width: 90%;
+    padding: 13px;
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.submit{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.submit:hover{
+        cursor: pointer;
+        background: rgba(56, 204, 140, 0.7);
+    }
+form p{
+    font-size: 8px;
+    text-align: center;
+    color:rgb(182, 177, 177);
+    padding: 10px;
+}
+form p a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+@media screen and (max-width: 375px) {
+    body{
+        background-color: hsl(0, 100%, 74%);
+        background-image: url(bg-intro-mobile.png);
+    }
+    main{   
+        flex-direction: column;
+    }
+    .left-div{
+        width: 90%;
+        padding: 0.5em;
+    }
+    .right-div{
+        width: 90%;
+        padding: 0.5em;
+    }
+    .left-div p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .left-div h1{
+        margin-top: 6em;
+        font-size: 25px;
+        text-align: center;
+    }
+    .form-top{
+        margin-top: 1.5em;
+    }
+    .form{
+        padding-bottom: 10em;
+    }
+    form p{
+        width: 80%;
+        margin: auto;
+    }
+} 
