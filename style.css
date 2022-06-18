@@ -83,7 +83,7 @@ form p a{
     text-decoration: none;
     color: hsl(0, 100%, 74%);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 675px) {
     body{
         background-color: hsl(0, 100%, 74%);
         background-image: url(bg-intro-mobile.png);
